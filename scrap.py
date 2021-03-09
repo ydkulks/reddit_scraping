@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 options = Options()
 options.add_argument("--headless")
 
-PATH =r'/mnt/e/code/py/chromedriver.exe'
+PATH =r'<--insert your driver directory here-->/chromedriver.exe'
 driver = webdriver.Chrome(chrome_options=options, executable_path=PATH)
 
 def main():
